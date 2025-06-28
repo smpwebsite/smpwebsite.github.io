@@ -6,7 +6,7 @@
   <link href="http://smpwebsite.online/atom.xml" rel="self"/>
   
   <link href="http://smpwebsite.online/"/>
-  <updated>2025-06-28T08:22:21.975Z</updated>
+  <updated>2025-06-28T11:49:45.557Z</updated>
   <id>http://smpwebsite.online/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>开mc服务器了</title>
+    <link href="http://smpwebsite.online/2025/06/28/%E5%BC%80mc%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%BA%86/"/>
+    <id>http://smpwebsite.online/2025/06/28/%E5%BC%80mc%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%BA%86/</id>
+    <published>2025-06-28T11:08:06.000Z</published>
+    <updated>2025-06-28T11:49:45.557Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="我开了一个mc服"><a href="#我开了一个mc服" class="headerlink" title="我开了一个mc服"></a>我开了一个mc服</h1><p>大家可以进来van awa</p><p>版本：Java 1.21.5（<em>虽然很多版本也可以进</em>）</p><h1 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h1><ol><li><strong>不要发逆天的东西（<del>虽然我看不见</del>）</strong></li><li><strong>不要乱拿东西，如果发现，Ban掉你的IP或者名称，让你所在的网络无法进入</strong></li><li><strong>不要运行大型机器如:卡服机等</strong></li><li><strong>因为开放离线所以使用了登录插件，请保管好你的账号及密码，最好不要透露你的密码</strong></li><li>服务器为插件服，不是mod服，可以不装mod</li></ol><h1 id="服务器IP地址"><a href="#服务器IP地址" class="headerlink" title="服务器IP地址"></a>服务器IP地址</h1><p>路线1:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">smpqwq.2m.pub</span><br></pre></td></tr></table></figure><p> (好记)</p><p>路线2:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cfc8522bc8db.ofalias.net:39571</span><br></pre></td></tr></table></figure><p>(延迟低)</p>]]></content>
+    
+    
+    <summary type="html">我的MC服务器
+</summary>
+    
+    
+    
+    
+    <category term="mc" scheme="http://smpwebsite.online/tags/mc/"/>
+    
+  </entry>
   
   <entry>
     <title>网站</title>
