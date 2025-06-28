@@ -3,7 +3,7 @@
 <html lang="zh-CN">
 <head>
     <meta charset="utf-8" />
-    <title>Archives | Smiatyの网站</title>
+    <title>about | Smiatyの网站</title>
     <meta name="author" content="Smiaty_QWQ" />
     <meta name="description" content="QWQ" />
     <meta name="keywords" content="" />
@@ -40,7 +40,13 @@
 
 
 
-<script src="/js/lib/search.js"></script>
+
+
+
+<script src="https://s4.zstatic.net/ajax/libs/waline/2.15.8/waline.min.js"></script>
+<link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/waline/2.15.8/waline.min.css" />
+<link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/waline/2.15.8/waline-meta.min.css" />
+
 
 
 
@@ -138,50 +144,59 @@
 </transition>
 
         <div id="main" :class="loading ? 'into-enter-from': 'into-enter-active'">
-            
-<div id="archives">
-    
-    <input id="search-bar" class="input" placeholder="搜索" v-model="rawSearch" />
-    
-    <div id="timeline-wrap" ref="timeline">
+            <div class="article">
+    <div>
+        <h1>about</h1>
+    </div>
+    <div class="info">
+        <span class="date">
+            <span class="icon">
+                <i class="fa-solid fa-calendar fa-fw"></i>
+            </span>
+            2025/6/28
+        </span>
         
-        <div class="timeline" data-title="建成了！">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2025/6/28</div>
-                <a href="/2025/06/28/hexo/">
-                    <h3>建成了！</h3>
-                </a>
-                <div class="info">
-                    
-                    
-                    <span class="tags">
-                        <span class="icon">
-                            <i class="fa-solid fa-tags fa-fw"></i>
-                        </span>
-                        
-                        
-                        <span class="tag">
-                            
-                            <a href="/tags/hexo/" style="color: #ff7d73">
-                                hexo
-                            </a>
-                        </span>
-                        
-                        <span class="tag">
-                            
-                            <a href="/tags/website%EF%BC%8Calist/" style="color: #00a596">
-                                website，alist
-                            </a>
-                        </span>
-                        
-                    </span>
-                    
-                </div>
-            </div>
-        </div>
         
     </div>
+    
+    <div class="content" v-pre>
+        <h1 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h1><h2 id="网名和时间列表"><a href="#网名和时间列表" class="headerlink" title="网名和时间列表"></a>网名和时间列表</h2><table>
+<thead>
+<tr>
+<th>时间&#x2F;time</th>
+<th>名字&#x2F;Name</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>2025-2025</td>
+<td>Smaity_QWQ</td>
+</tr>
+<tr>
+<td>2023-2025</td>
+<td>SMP_QWQ</td>
+</tr>
+<tr>
+<td>2018-2023</td>
+<td>LMC&#x2F;Andy</td>
+</tr>
+</tbody></table>
+<p>B站（发视频的）：<a target="_blank" rel="noopener" href="https://space.bilibili.com/3546644073155032">https://space.bilibili.com/3546644073155032</a></p>
+<p>B站（直播的，未启用，旧号）：<a target="_blank" rel="noopener" href="https://space.bilibili.com/3546651694205853">https://space.bilibili.com/3546651694205853</a></p>
+<p>邮箱:<a href="mailto:&#x33;&#x36;&#51;&#x36;&#x36;&#x30;&#x39;&#x32;&#56;&#x32;&#x40;&#113;&#x71;&#x2e;&#x63;&#x6f;&#x6d;">3636609282@qq.com</a>   <a href="mailto:&#115;&#x6d;&#105;&#x61;&#x74;&#121;&#95;&#x71;&#x77;&#113;&#x40;&#111;&#x75;&#x74;&#108;&#111;&#111;&#107;&#46;&#x63;&#x6f;&#109;">smiaty_qwq@outlook.com</a></p>
+<p>QQ:3636609282</p>
+
+    </div>
+    
+    
+    
+    
+    
+    <div id="comment">
+        <div id="waline-container"></div>
+    </div>
+    
+    
+    
 </div>
 
             <footer id="footer">
@@ -212,6 +227,29 @@
         
     </div>
     <script src="/js/main.js"></script>
+    
+    
+
+
+<script>
+    Waline.init({
+        el: "#waline-container",
+        serverURL: "talk.smpwebsite.online",
+        commentCount: true,
+        pageview: false,
+        emoji: "https://unpkg.com/@waline/emojis@1.2.0/weibo,https://unpkg.com/@waline/emojis@1.2.0/alus,https://unpkg.com/@waline/emojis@1.2.0/bilibili,https://unpkg.com/@waline/emojis@1.2.0/qq,https://unpkg.com/@waline/emojis@1.2.0/tieba,https://unpkg.com/@waline/emojis@1.2.0/tw-emoji".split(","),
+        meta: "nick,mail,link".split(","),
+        requiredMeta: "nick".split(","),
+        lang: "",
+        wordLimit: 0,
+        pageSize: "10",
+        login: "enable",
+        
+    });
+</script>
+
+
+
     
 </body>
 </html>
